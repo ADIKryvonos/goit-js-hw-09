@@ -6,7 +6,7 @@ form.addEventListener('submit', formSubmit);
 function formSubmit(e) {
   e.preventDefault();
   let delay = Number(e.target.delay.value);
-  console.log('🚀 ~ file: 03-promises.js:9 ~ formSubmit ~ delay', delay);
+  console.log(delay);
   const stepValue = Number(e.target.step.value);
   console.log(stepValue);
   const amountValue = Number(e.target.amount.value);
